@@ -1,0 +1,26 @@
+.lift{
+    width: 100px;
+    height: 100px;
+    background-color : royal blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 100px;
+
+    animation-name: liftjourney;
+    animation-duration: 10s;
+}
+@keyframes liftjourney {
+    0%{
+    transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+}
